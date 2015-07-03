@@ -2,8 +2,18 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>html is very easy!!</title>
+		<script type="text/javascript" src="../script/func.js"></script>
 	</head>
 	<body>
+		<form name="dateForm">
+			<input type="text" size="28" name="fromDate">
+			<input type="text" size="15" name="fromTime">
+		</form>
+		<div id="info">本日の行事は何もありません</div>
+		<script language="JavaScript"><!--
+			setInterval("nowDate()", 1000);
+			myEvent();
+		// --></script>
 		<h1>リンク</h1>
 		<ul>
 			<li><a href="top.html" target="main">トップページ</a>
